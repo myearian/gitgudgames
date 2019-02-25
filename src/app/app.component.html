@@ -4,8 +4,11 @@
   <mat-sidenav-container class="container">
     <mat-sidenav class="side-container" mode="side" opened>
         <img width="200" height="200" alt="GitGudGames Logo" src="/assets/icons/GitGudLogo.svg">
+        <mat-nav-list>
+          <a mat-list-item routerLink="/main" class="nav-list-item" role="navigation">Game Rank</a>
+          <a mat-list-item routerLink="/trending" class="nav-list-item" role="navigation">Trending Games</a>
+        </mat-nav-list>
     </mat-sidenav>
-    <mat-sidenav-content></mat-sidenav-content>
+    <mat-sidenav-content class="content-container" ><router-outlet></router-outlet></mat-sidenav-content>
   </mat-sidenav-container>
 </div>
-<router-outlet></router-outlet>
