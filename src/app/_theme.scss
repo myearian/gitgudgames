@@ -1,0 +1,6 @@
+
+$ggg-app-primary: #303030;
+$ggg-app-accent:  #e91e63;
+
+// Create the theme object (a Sass map containing all of the palettes).
+$ggg-app-theme: mat-light-theme($ggg-app-primary, $ggg-app-accent);

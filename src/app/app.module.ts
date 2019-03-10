@@ -17,7 +17,7 @@ import {MatListModule} from '@angular/material/list';
     AppRoutingModule,
     BrowserAnimationsModule,
     MatSidenavModule,
-    MatListModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]

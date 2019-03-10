@@ -1,10 +1,12 @@
+@import 'theme';
+
 .container {
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    background: #303030;
+    background: $ggg-app-primary
 }
 
 .content-container {
@@ -12,7 +14,7 @@
 }
 
 .side-container {
-    background: #e91e63;
+    background: $ggg-app-accent;
 }
 
 .nav-list-item {
