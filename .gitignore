@@ -44,3 +44,4 @@ testem.log
 Thumbs.db
 
 gitgudgames.code-workspace
+package-lock.json
