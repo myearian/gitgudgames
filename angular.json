@@ -137,5 +137,8 @@
       }
     }
   },
-  "defaultProject": "gitgudgames"
+  "defaultProject": "gitgudgames",
+  "cli": {
+    "analytics": "b3e63880-dd39-4226-b923-ac0e1db40591"
+  }
 }
